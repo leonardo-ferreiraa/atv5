@@ -17,42 +17,42 @@ public class Atv5 {
         
         Operadores C2 = new Operadores(5, 10);
         C2.subtracao();
-        System.out.println("O resultado é: " + C1.subtracao());
+        System.out.println("O resultado é: " + C2.subtracao());
         
         Operadores C3 = new Operadores(5, 10);
         C3.multiplicacao();
-        System.out.println("O resultado é: " + C1.multiplicacao());
+        System.out.println("O resultado é: " + C3.multiplicacao());
         
         Operadores C4 = new Operadores(5, 10);
         C4.divisao();
-        System.out.println("O resultado é: " + C1.divisao());
+        System.out.println("O resultado é: " + C4.divisao());
         
         Operadores C5 = new Operadores(5, 10);
         C5.retornoDivisao();
-        System.out.println("O resultado é: " + C1.retornoDivisao());
+        System.out.println("O resultado é: " + C5.retornoDivisao());
         
         Operadores C6 = new Operadores(5, 10);
         C6.somaIgual();
+        System.out.println("O resultado é: " + C6.somaIgual());
+        
         System.out.println("--------------------------------------");
         System.out.println("operadores de Atribuição");
         
-        System.out.println("O resultado é: " + C1.somaIgual());
-        
         Operadores C7 = new Operadores(5, 10);
         C7.subtracaoIgual();
-        System.out.println("O resultado é: " + C1.subtracaoIgual());
+        System.out.println("O resultado é: " + C7.subtracaoIgual());
         
         Operadores C8 = new Operadores(5, 10);
         C8.divisaoIgual();
-        System.out.println("O resultado é: " + C1.divisaoIgual());
+        System.out.println("O resultado é: " + C8.divisaoIgual());
         
         Operadores C9 = new Operadores(5, 10);
         C9.multiplicacaoIgual();
-        System.out.println("O resultado é: " + C1.multiplicacaoIgual());
+        System.out.println("O resultado é: " + C9.multiplicacaoIgual());
         
         Operadores C10 = new Operadores(5, 10);
         C10.retornodivisaoIgual();
-        System.out.println("O resultado é: " + C1.retornodivisaoIgual());
+        System.out.println("O resultado é: " + C10.retornodivisaoIgual());
         
         System.out.println("--------------------------------------");
         System.out.println("operadores Lógicos");
